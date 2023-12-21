@@ -1,5 +1,6 @@
-import css from "./TransactionHistory.module.css"
 import { TransactionItem } from "components/TransactionItem/TransactionItem";
+import css from "./TransactionHistory.module.css";
+
 
 
 
