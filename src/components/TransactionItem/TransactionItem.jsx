@@ -1,11 +1,11 @@
-import css from "./TransactionItem.module.css";
+ import css from "./TransactionItem.module.css";
 
-export const TransactionItem = ({ type, amount, currency  }) => {
-    return (
-         <tr>
+ export const TransactionItem = ({ type, amount, currency  }) => {
+     return (
+          <tr>
       <td>{type}</td>
       <td>{amount}</td>
       <td>{currency}</td>
-    </tr>
+     </tr>
     )
 }
