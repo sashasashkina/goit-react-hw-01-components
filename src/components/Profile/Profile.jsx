@@ -1,7 +1,7 @@
 import css from "./Profile.module.css";
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
-    console.log(Profile);
+   
   return (
     <div className="profile">
       <div className="description">
