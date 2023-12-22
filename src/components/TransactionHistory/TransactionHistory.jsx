@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { TransactionItem } from "components/TransactionItem/TransactionItem";
 import css from "./TransactionHistory.module.css";
 
@@ -29,4 +30,15 @@ import css from "./TransactionHistory.module.css";
       </tbody>
     </table>
   );
+};
+
+TransactionHistory.propTypes = {
+  transactions: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };

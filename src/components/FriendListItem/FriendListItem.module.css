@@ -27,14 +27,14 @@
   background-color: red;
 }
 
-.avatatar {
+.avatar {
   max-width: 30%;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   padding: 12px;
   border-radius: 50%;
-  background-color: hsla(215, 98%, 79%, 0.4);
+  background-color: hsla(132, 12%, 92%, 0.968);
   box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
   margin-bottom: 10px;
   margin-top: 10px;
